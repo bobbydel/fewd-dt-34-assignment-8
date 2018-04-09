@@ -1,47 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
 
-		<title>Relaxr Blog</title>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
 
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/style.css">
+	<title>Relaxr Blog</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
 
-	</head>
-	<body>
-		<header>
-			<div class="container">
-				<h1 class="logo">Relaxr</h1>
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<section id="main">
-			<div class="container">
-				<section id="contact">
-					<input type="submit" value="Register Now!">
-				</section>
-			</div>
-		</section>
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
 
-		<footer>
-			<h4 class="logo">Relaxr</h4>
+</head>
 
-			<ul>
-				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
-				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
-			</ul>
+<body>
+	<header>
+		<div class="container">
+			<h1 class="logo">Relaxr</h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="blog.html">Blog</a>
+					</li>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section id="main">
+		<div class="container fields">
+			<h2>Register Now!</h2>
+			<section id="contact">
+				<div class="two-col">
+					<div class="col1">
+						<label class="labeling">Name:</label>
+						<label class="labeling">Email:</label>
+						<label class="labeling">Phone:</label>
+						<label class="labeling">State:</label>
+						<label class="labeling">Password:</label>
+						<label id="long">What service are you interested in?</label>
+						<div class="form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1">Agree to Terms</label>
+						</div>
 
-			<p class="copyright">Copyright 2015. Relaxr.</p>
-		</footer>
-	</body>
+					</div>
+
+					<div class="col2">
+						<form>
+
+							<form>
+
+								<input class="textFields" type="text" placeholder="John Doe" size="35">
+								<input class="textFields" type="text" placeholder="johndoe@domain.com!" size="35">
+								<input class="textFields" type="text" placeholder="867-5309" size="35">
+								<input class="textFields" type="text" placeholder="Register Now!" size="35">
+								<input class="textFields" type="password" size="35">
+
+							</form>
+							<form class="form-inline">
+
+								<div class="form-check">
+									<input class="form-check-input" name="group20" type="radio" id="radio120" checked="checked">
+									<label class="form-check-label" for="radio120">Relaxing</label>
+								</div>
+
+								<div class="form-check">
+									<input class="form-check-input" name="group20" type="radio" id="radio121">
+									<label class="form-check-label" for="radio121">Email</label>
+								</div>
+
+								<div class="form-check">
+									<input class="form-check-input" name="group20" type="radio" id="radio122">
+									<label class="form-check-label" for="radio122">Phone</label>
+								</div>
+
+							</form>
+
+					</div>
+
+				</div>
+				<div class="row">
+					<button>Register Now</button>
+				</div>
+			</section>
+		</div>
+	</section>
+
+	<footer>
+		<h4 class="logo">Relaxr</h4>
+
+		<ul>
+			<li>
+				<a href="#">
+					<img class="testRotate" src="images/twitter.png" alt="Twitter logo">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/facebook.png" alt="Facebook logo">
+				</a>
+			</li>
+		</ul>
+
+		<p class="copyright">Copyright 2015. Relaxr.</p>
+	</footer>
+	<script src="https://code.jquery.com/jquery-1.12.3.js"></script>
+
+	<script src="main.js"></script>
+</body>
+
 </html>
